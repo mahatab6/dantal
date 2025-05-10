@@ -17,7 +17,7 @@ const Navber = () => {
     )
     return (
         <div className='w-[98%] mx-auto'>
-            <div className="navbar  ">
+            <div className="navbar border-b-1 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
