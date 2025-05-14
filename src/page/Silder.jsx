@@ -26,7 +26,7 @@ const Silder = () => {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                delay: 4500,
+                delay: 3000,
                 disableOnInteraction: false,
                 }}
                 pagination={{
@@ -38,22 +38,10 @@ const Silder = () => {
                 className="mySwiper"
             >
                 <SwiperSlide> <div className='w-[98%] mx-auto m-2 p-3 bg-[#25CCF7] rounded-2xl'>
-                            <div className='flex flex-col-reverse md:flex-row items-center '>
+                            <div className='flex flex-col-reverse md:flex-row items-center sm:py-5'>
                                 <div className='p-4 text-center space-y-2'>
                                     <h1 className='text-4xl font-bold'>Caring for Your Smile with Compassion,<br /> Precision, and a Gentle Touch — Because You Deserve the Best</h1>
-                                        <p className="text-lg text-gray-700 mt-4 leading-relaxed">
-                                            <Typewriter
-                                                words={[
-                                                'From routine checkups to advanced treatments, we’re here to make your dental care comfortable, affordable, and worry-free.'
-                                                ]}
-                                                loop={false}
-                                                cursor
-                                                cursorStyle="|"
-                                                typeSpeed={35}
-                                                deleteSpeed={0}
-                                                delaySpeed={1000}
-                                            />
-                                        </p>
+                                        <p className="text-lg text-gray-700 mt-4 leading-relaxed"> From routine checkups to advanced treatments, we’re here to make your dental care comfortable, affordable, and worry-free.'</p>
                                     <button className='btn bg-white border-0 rounded-2xl p-5 text-base'>view services</button>
                                 </div>
                                 <div>
@@ -63,23 +51,11 @@ const Silder = () => {
                         </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='w-[98%] mx-auto m-3 p-3 rounded-2xl bg-yellow-300 border-1 border-black'>
-                                   <div className='flex flex-col-reverse md:flex-row-reverse items-center  py-10 '>
+                    <div className='w-[98%] mx-auto m-4 p-3 rounded-2xl bg-yellow-300  '>
+                                   <div className='flex flex-col-reverse md:flex-row-reverse items-center  md:py-14 '>
                                     <div className='p-4 text-center space-y-2'>
                                         <h1 className='text-4xl font-bold'>Affordable, Trusted Dental Care — Keeping You and Your Family <br />Smiling Brighter Every Day</h1>
-                                           <p className="text-lg text-gray-700 mt-4 leading-relaxed">
-                                                <Typewriter
-                                                    words={[
-                                                    'We offer high-quality dental services at prices that fit your budget — with flexible appointments and a team you can trust.'
-                                                    ]}
-                                                    loop={false}
-                                                    cursor
-                                                    cursorStyle="|"
-                                                    typeSpeed={35}
-                                                    deleteSpeed={0}
-                                                    delaySpeed={1000}
-                                                />
-                                            </p>
+                                           <p className="text-lg text-gray-700 mt-4 leading-relaxed"> We offer high-quality dental services at prices that fit your budget — with flexible appointments and a team you can trust.</p>
                                         <button className='btn bg-[#25CCF7] border-0 rounded-2xl p-5 text-base'>view services</button>
                                     </div>
                                     <div>
