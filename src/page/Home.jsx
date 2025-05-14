@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Silder from './Silder';
 import Booking from './Booking';
 import BrandLogo from './BrandLogo';
+import DantalServices from './DantalServices';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Silder/>
             <Booking/>
             <BrandLogo/>
+            <DantalServices/>
         </div>
     );
 };
