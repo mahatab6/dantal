@@ -47,7 +47,7 @@ const Booking = () => {
                             </div>
                        </div>
 
-                        <button type="button" className=" w-2/4 mt-3 px-8 py-3 font-semibold rounded-md dark:bg-[#25CCF7] dark:text-gray-50">Sign in</button>
+                        <button type="button" className=" w-2/4 mt-3 px-8 py-3 font-semibold rounded-md bg-[#25CCF7] dark:text-gray-50">Sign in</button>
 
                     </form>
 

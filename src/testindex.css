@@ -1,0 +1,24 @@
+.testimonial-section .swiper {
+    width: 100%;
+    height: auto;
+  }
+  
+.testimonial-section .swiper-slide {
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  
+.testimonial-section .swiper-slide img {
+    width: 96px;
+    height: 96px;
+    border-radius: 9999px;
+    object-fit: cover;
+  }
+  
+  
+  

@@ -5,6 +5,7 @@ import Booking from './Booking';
 import BrandLogo from './BrandLogo';
 import DantalServices from './DantalServices';
 import ConfidentSmile from './ConfidentSmile';
+import TestimonialSilder from './TestimonialSilder';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <BrandLogo/>
             <DantalServices/>
             <ConfidentSmile/>
+            <TestimonialSilder/>
         </div>
     );
 };
