@@ -4,6 +4,7 @@ import Silder from './Silder';
 import Booking from './Booking';
 import BrandLogo from './BrandLogo';
 import DantalServices from './DantalServices';
+import ConfidentSmile from './ConfidentSmile';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Booking/>
             <BrandLogo/>
             <DantalServices/>
+            <ConfidentSmile/>
         </div>
     );
 };
