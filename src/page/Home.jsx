@@ -6,6 +6,7 @@ import BrandLogo from './BrandLogo';
 import DantalServices from './DantalServices';
 import ConfidentSmile from './ConfidentSmile';
 import TestimonialSilder from './TestimonialSilder';
+import Blog from './Blog';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <DantalServices/>
             <ConfidentSmile/>
             <TestimonialSilder/>
+            <Blog/>
         </div>
     );
 };
