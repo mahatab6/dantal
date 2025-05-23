@@ -29,7 +29,7 @@ const Navber = () => {
                         {link}
                     </ul>
                     </div>
-                    <a className=" text-xl">dental care</a>
+                    <a className=" text-xl">Dental Care</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
