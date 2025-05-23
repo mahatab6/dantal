@@ -89,9 +89,9 @@ const TestimonialSilder = () => {
     return (
         <div className='testimonial-section'>
 
-            <div className='flex items-center gap-3 justify-items-center'>
+            <div className='flex items-center gap-3 justify-center'>
                 <img className='w-[50px]' src={review} alt="" />
-                <h1 className='text-xl'>Testimonials</h1>
+                <h1 className='text-3xl font-bold '>Customer reviews</h1>
             </div>
              <Swiper
                 spaceBetween={30}
