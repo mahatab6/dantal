@@ -6,7 +6,7 @@ import { MdDone } from "react-icons/md";
 const ConfidentSmile = () => {
     return (
        <div className='w-[98%] mx-auto bg-base-300 rounded-2xl mt-5'>
-            <div className='md:flex items-center md:py-10 space-x-10 px-3'>
+            <div className='xl:flex items-center md:py-10 space-x-10 px-3'>
                 <img className=' rounded-2xl' src={patient} alt="" />
                 <div className='space-y-3 pt-5'>
                     <h1 className=' text-2xl md:text-3xl font-bold'>Achieve a Confident Smile With Us</h1>
